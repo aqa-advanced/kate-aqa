@@ -1,0 +1,38 @@
+{
+  "name": "aqa-project",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "lint": "npx eslint . --fix",
+    "prettier": "npx prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqa-advanced/kate-aqa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aqa-advanced/kate-aqa/issues"
+  },
+  "homepage": "https://github.com/aqa-advanced/kate-aqa#readme",
+  "type": "module",
+  "dependencies": {
+    "husky": "^9.0.11",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.0.3",
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "eslint-plugin-react": "^7.34.2",
+    "globals": "^15.4.0",
+    "prettier": "3.3.1"
+  }
+}
